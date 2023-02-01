@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 49875775}
   - component: {fileID: 49875776}
   m_Layer: 0
-  m_Name: property_sanmarino_borgomaggiore
+  m_Name: PropertySanMarinoBorgoMaggiore
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -362,7 +362,7 @@ GameObject:
   - component: {fileID: 82705931}
   - component: {fileID: 82705932}
   m_Layer: 0
-  m_Name: property_vaticancity_cittadelvaticano
+  m_Name: PropertyVaticanCityCittaDelVaticano
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -446,7 +446,7 @@ GameObject:
   - component: {fileID: 233260780}
   - component: {fileID: 233260781}
   m_Layer: 0
-  m_Name: property_andorra_andorralavella
+  m_Name: PropertyAndorraAndorraLaVella
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -530,7 +530,7 @@ GameObject:
   - component: {fileID: 289329350}
   - component: {fileID: 289329351}
   m_Layer: 0
-  m_Name: property_liechtenstein_vaduz
+  m_Name: PropertyLiechtensteinVaduz
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -614,7 +614,7 @@ GameObject:
   - component: {fileID: 345516810}
   - component: {fileID: 345516811}
   m_Layer: 0
-  m_Name: cell_vacation
+  m_Name: CellVacanze
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -698,7 +698,7 @@ GameObject:
   - component: {fileID: 352276158}
   - component: {fileID: 352276159}
   m_Layer: 0
-  m_Name: property_monaco_porthercule
+  m_Name: PropertyMonacoPortHercule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -782,7 +782,7 @@ GameObject:
   - component: {fileID: 356909097}
   - component: {fileID: 356909098}
   m_Layer: 0
-  m_Name: property_gibraltar_molonord
+  m_Name: PropertyGibraltarMoloNord
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -866,7 +866,7 @@ GameObject:
   - component: {fileID: 399351778}
   - component: {fileID: 399351779}
   m_Layer: 0
-  m_Name: cell_reroll
+  m_Name: CellRitira
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1034,7 +1034,7 @@ GameObject:
   - component: {fileID: 471906646}
   - component: {fileID: 471906647}
   m_Layer: 0
-  m_Name: cell_prison_jump
+  m_Name: CellPrigioneJump
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1286,7 +1286,7 @@ GameObject:
   - component: {fileID: 586563904}
   - component: {fileID: 586563905}
   m_Layer: 0
-  m_Name: property_liechtenstein_balzers
+  m_Name: PropertyLiechtensteinBalzers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1370,7 +1370,7 @@ GameObject:
   - component: {fileID: 616570899}
   - component: {fileID: 616570900}
   m_Layer: 0
-  m_Name: cell_surprise
+  m_Name: CellImprevisto1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1454,7 +1454,7 @@ GameObject:
   - component: {fileID: 676388685}
   - component: {fileID: 676388686}
   m_Layer: 0
-  m_Name: cell_treasure (1)
+  m_Name: CellTesoro1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1538,7 +1538,7 @@ GameObject:
   - component: {fileID: 727478500}
   - component: {fileID: 727478501}
   m_Layer: 0
-  m_Name: property_gibraltar_faro
+  m_Name: PropertyGibraltarFaro
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1622,7 +1622,7 @@ GameObject:
   - component: {fileID: 736425879}
   - component: {fileID: 736425880}
   m_Layer: 0
-  m_Name: cell_prison
+  m_Name: CellPrigione
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1790,7 +1790,7 @@ GameObject:
   - component: {fileID: 749949173}
   - component: {fileID: 749949174}
   m_Layer: 0
-  m_Name: property_malta_victoria
+  m_Name: PropertyMaltaVictoria
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1874,7 +1874,7 @@ GameObject:
   - component: {fileID: 786270578}
   - component: {fileID: 786270579}
   m_Layer: 0
-  m_Name: property_monaco_montecarlo
+  m_Name: PropertyMonacoMontecarlo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1958,7 +1958,7 @@ GameObject:
   - component: {fileID: 841981645}
   - component: {fileID: 841981646}
   m_Layer: 0
-  m_Name: property_gibraltar_stretto
+  m_Name: PropertyGibraltarStretto
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2154,7 +2154,7 @@ GameObject:
   - component: {fileID: 884267090}
   - component: {fileID: 884267091}
   m_Layer: 0
-  m_Name: cell_taxes
+  m_Name: CellTasse
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2238,7 +2238,7 @@ GameObject:
   - component: {fileID: 899597177}
   - component: {fileID: 899597178}
   m_Layer: 0
-  m_Name: property_sanmarino_sanmarino
+  m_Name: PropertySanMarinoSanMarino
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2322,7 +2322,7 @@ GameObject:
   - component: {fileID: 905907880}
   - component: {fileID: 905907881}
   m_Layer: 0
-  m_Name: property_luxembourg_lussemburgo
+  m_Name: PropertyLuxembourgLussemburgo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2406,7 +2406,7 @@ GameObject:
   - component: {fileID: 916721864}
   - component: {fileID: 916721865}
   m_Layer: 0
-  m_Name: airport_cyprus
+  m_Name: AirportCyprus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2490,7 +2490,7 @@ GameObject:
   - component: {fileID: 944121149}
   - component: {fileID: 944121150}
   m_Layer: 0
-  m_Name: cell_treasure (2)
+  m_Name: CellTesoro3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2574,7 +2574,7 @@ GameObject:
   - component: {fileID: 954257687}
   - component: {fileID: 954257688}
   m_Layer: 0
-  m_Name: property_malta_sliema
+  m_Name: PropertyMaltaSliema
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2658,7 +2658,7 @@ GameObject:
   - component: {fileID: 970776231}
   - component: {fileID: 970776232}
   m_Layer: 0
-  m_Name: cell_casino
+  m_Name: CellCasino
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2826,7 +2826,7 @@ GameObject:
   - component: {fileID: 985133702}
   - component: {fileID: 985133703}
   m_Layer: 0
-  m_Name: property_faroeislands_streym
+  m_Name: PropertyFaroeIslandsStreym
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2910,7 +2910,7 @@ GameObject:
   - component: {fileID: 1018392367}
   - component: {fileID: 1018392368}
   m_Layer: 0
-  m_Name: airport_faroeislands
+  m_Name: AirportFaroeIslands
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3213,7 +3213,7 @@ GameObject:
   - component: {fileID: 1098797222}
   - component: {fileID: 1098797223}
   m_Layer: 0
-  m_Name: property_faroeislands_sudur
+  m_Name: PropertyFaroeIslandsSudur
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3297,7 +3297,7 @@ GameObject:
   - component: {fileID: 1110261506}
   - component: {fileID: 1110261507}
   m_Layer: 0
-  m_Name: company_circonetacad
+  m_Name: CompanyCircoNetAcad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3381,7 +3381,7 @@ GameObject:
   - component: {fileID: 1178169790}
   - component: {fileID: 1178169791}
   m_Layer: 0
-  m_Name: cell_surprise (2)
+  m_Name: CellImprevisto3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3596,7 +3596,7 @@ GameObject:
   - component: {fileID: 1334489342}
   - component: {fileID: 1334489343}
   m_Layer: 0
-  m_Name: property_malta_lavalletta
+  m_Name: PropertyMaltaLaValletta
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3811,7 +3811,7 @@ GameObject:
   - component: {fileID: 1365708777}
   - component: {fileID: 1365708778}
   m_Layer: 0
-  m_Name: property_luxembourg_vlanden
+  m_Name: PropertyLuxembourgVlanden
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3895,7 +3895,7 @@ GameObject:
   - component: {fileID: 1404080529}
   - component: {fileID: 1404080530}
   m_Layer: 0
-  m_Name: property_luxembourg_larochette
+  m_Name: PropertyLuxembourgLarochette
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3979,7 +3979,7 @@ GameObject:
   - component: {fileID: 1492315808}
   - component: {fileID: 1492315809}
   m_Layer: 0
-  m_Name: company_essecorta
+  m_Name: CompanyEssecorta
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4063,7 +4063,7 @@ GameObject:
   - component: {fileID: 1528506848}
   - component: {fileID: 1528506849}
   m_Layer: 0
-  m_Name: airport_luxembourg
+  m_Name: AirportLuxembourg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4147,7 +4147,7 @@ GameObject:
   - component: {fileID: 1628350768}
   - component: {fileID: 1628350769}
   m_Layer: 0
-  m_Name: company_sudvpn
+  m_Name: CompanySudVPN
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4231,7 +4231,7 @@ GameObject:
   - component: {fileID: 1712561596}
   - component: {fileID: 1712561597}
   m_Layer: 0
-  m_Name: property_faroeislands_eystur
+  m_Name: PropertyFaroeIslandsEystur
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4315,7 +4315,7 @@ GameObject:
   - component: {fileID: 1755475194}
   - component: {fileID: 1755475195}
   m_Layer: 0
-  m_Name: property_sanmarino_serravalle
+  m_Name: PropertySanMarinoSerravalle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4399,7 +4399,7 @@ GameObject:
   - component: {fileID: 1782060907}
   - component: {fileID: 1782060908}
   m_Layer: 0
-  m_Name: property_andorra_lamassana
+  m_Name: PropertyAndorraLaMassana
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4483,7 +4483,7 @@ GameObject:
   - component: {fileID: 1948310324}
   - component: {fileID: 1948310325}
   m_Layer: 0
-  m_Name: cell_surprise (1)
+  m_Name: CellImprevisto2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4611,7 +4611,7 @@ GameObject:
   - component: {fileID: 2060930220}
   - component: {fileID: 2060930221}
   m_Layer: 0
-  m_Name: airport_sanmarino
+  m_Name: AirportSanMarino
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
