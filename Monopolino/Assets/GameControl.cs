@@ -34,6 +34,11 @@ public class GameControl : MonoBehaviour {
         Coroutine coroutine1 =  dice1.GetComponent<Dice>().StartCoroutine("RollAnimation");
         Coroutine coroutine2 = dice2.GetComponent<Dice>().StartCoroutine("RollAnimation");
 
+
+        //waiting for coroutines end
+        yield return coroutine1;
+        yield return coroutine2;
+
         //taking dice random value
         int res1 = dice1.GetComponent<Dice>().RollTheDice();
         int res2 = dice2.GetComponent<Dice>().RollTheDice();
@@ -41,9 +46,6 @@ public class GameControl : MonoBehaviour {
         //adding dice values
         diceSideThrown = res1 + res2;
 
-        //waiting for coroutines end
-        yield return coroutine1;
-        yield return coroutine2;
 
         //moving the player whose turn it is
         if (whosTurn == 1)
