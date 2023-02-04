@@ -7,21 +7,22 @@ using UnityEngine;
 using System.Linq;
 using Random = System.Random;
 
-
+public delegate void ToDoAction(GameObject player);
 //class CartaImprevisto containing card datas, the Action delegates contains what to do on card draw
 public class ImprevistoCard
 {
     public int id;
     public string name;
     public string description;
-    public Delegate Action;
+    
+    public ToDoAction action;
 
     public ImprevistoCard(int id, string name, string description, Delegate action)
     {
         this.id = id;
         this.name = name;
         this.description = description;
-        this.Action = action;
+        this.action = (ToDoAction)action;
     }
 }
 
@@ -30,6 +31,7 @@ public class ImprevistoCard
 [Serializable]
 public class info
 {
+    public int id;
     public string name;
     public string description;
 }
@@ -60,7 +62,7 @@ public class GameControl : MonoBehaviour {
     //list of cards
     public List<ImprevistoCard> cards = new List<ImprevistoCard>();
   
-    delegate void Action(GameObject player);
+  
     #endregion
     // Use this for initialization
     void Start () {
@@ -71,38 +73,40 @@ public class GameControl : MonoBehaviour {
 
         dice1 = GameObject.Find("Dice1");
         dice2 = GameObject.Find("Dice2");
+        CreateCards();
+    }
 
 
-
-        //on start filling each card with their info
-        //in this method are established delegates actions (what to do on card draw)
+    //on start filling each card with their info
+    //in this method are established delegates actions (what to do on card draw)
+    private void CreateCards()
+    {
         for (int i = 0; i < cardsInfoImprevisti.Count(); i++)
         {
-            switch (i)
+            switch (cardsInfoImprevisti[i].id)
             {
                 case 0:
-                    Action action0 = delegate (GameObject player) {
-
+                    ToDoAction action0 = delegate (GameObject player) {
+                        Debug.Log("script 0");
                     };
-                    cards.Add(new ImprevistoCard(i, cardsInfoImprevisti[i].name, cardsInfoImprevisti[i].description, action0));
+                    cards.Add(new ImprevistoCard(cardsInfoImprevisti[i].id, cardsInfoImprevisti[i].name, cardsInfoImprevisti[i].description, action0));
                     break;
                 case 1:
-                    Action action1 = delegate (GameObject player) {
-
+                    ToDoAction action1 = delegate (GameObject player) {
+                        Debug.Log("script 1");
                     };
-                    cards.Add(new ImprevistoCard(i, cardsInfoImprevisti[i].name, cardsInfoImprevisti[i].description, action1));
+                    cards.Add(new ImprevistoCard(cardsInfoImprevisti[i].id, cardsInfoImprevisti[i].name, cardsInfoImprevisti[i].description, action1));
                     break;
                 case 2:
-                    Action action2 = delegate (GameObject player) {
-
+                    ToDoAction action2 = delegate (GameObject player) {
+                        Debug.Log("script ");
                     };
-                    cards.Add(new ImprevistoCard(i, cardsInfoImprevisti[i].name, cardsInfoImprevisti[i].description, action2));
+                    cards.Add(new ImprevistoCard(cardsInfoImprevisti[i].id, cardsInfoImprevisti[i].name, cardsInfoImprevisti[i].description, action2));
                     break;
             }
 
         }
     }
-
 
     #region dice roll and player movement
     //called on dice click

@@ -31,5 +31,6 @@ public class Imprevisti : MonoBehaviour
         Random r = new Random();
         ImprevistoCard card = control.GetComponent<GameControl>().cards[r.Next(0,control.GetComponent<GameControl>().cards.Count())];
         Debug.Log(card.name + card.description);
+        card.action(player);
     }
 }
