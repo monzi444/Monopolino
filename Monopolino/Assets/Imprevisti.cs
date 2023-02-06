@@ -13,7 +13,9 @@ public class Imprevisti : MonoBehaviour
     
 
     private static GameObject control;
-   
+
+ 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,13 +26,13 @@ public class Imprevisti : MonoBehaviour
     {
         player = collision.gameObject;
         DrawCard(player);
+        
     }
 
     private void DrawCard(GameObject player)
     {
         Random r = new Random();
-        ImprevistoCard card = control.GetComponent<GameControl>().cards[r.Next(0,control.GetComponent<GameControl>().cards.Count())];
-        Debug.Log(card.name + card.description);
+        ImprevistoCard card = control.GetComponent<GameControl>().cardsImprevisti[r.Next(0,control.GetComponent<GameControl>().cardsImprevisti.Count())];
         card.action(player);
     }
 }
