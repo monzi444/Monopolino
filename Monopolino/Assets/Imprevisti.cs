@@ -20,13 +20,13 @@ public class Imprevisti : MonoBehaviour
     void Start()
     {
         control = GameObject.Find("GameControl");
+
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         player = collision.gameObject;
         DrawCard(player);
-        
     }
 
     private void DrawCard(GameObject player)

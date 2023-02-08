@@ -7,6 +7,7 @@ using UnityEngine;
 using System.Linq;
 using Random = System.Random;
 using System.Threading;
+using System.Threading.Tasks;
 
 public delegate void ToDoAction(GameObject player);
 //class CartaImprevisto containing card datas, the Action delegates contains what to do on card draw
@@ -65,8 +66,9 @@ public class GameControl : MonoBehaviour {
 
     public GameObject cardImprevistoObject;
     public GameObject OkButton;
-   
-    public bool okButtonClicked;
+
+    [HideInInspector]
+    public bool okButtonClicked = false;
     #endregion
     // Use this for initialization
     void Start () {
@@ -79,14 +81,23 @@ public class GameControl : MonoBehaviour {
         dice2 = GameObject.Find("Dice2");
         CreateCards();
     }
-
-
+    public void DeactivateALl()
+    {
+        dice1.SetActive(false);
+        dice2.SetActive(false);
+    }
+    public void ActivateALl()
+    {
+        dice1.SetActive(true);
+        dice2.SetActive(true);
+    }
     #region imprevisti
     //on start filling each card with their info
     //in this method are established delegates actions (what to do on card draw)
-    public void InstantiateObject (GameObject cardObject) {
-        Instantiate(cardObject, new Vector3(0, 7, 0), Quaternion.identity);
-        Instantiate(OkButton, new Vector3(0, 0, 0), Quaternion.identity);
+    public void DisplayCard (GameObject cardObject) {   
+        Instantiate(OkButton, new Vector3(0, -6, -1), Quaternion.identity);
+        Instantiate(cardObject, new Vector3(0, 9, 0), Quaternion.identity);
+        DeactivateALl();
     }
 
     private void CreateCards()
@@ -98,23 +109,21 @@ public class GameControl : MonoBehaviour {
                 case 0:
                     ToDoAction action0 = delegate (GameObject player) {
                         Debug.Log("script 0");
-                        InstantiateObject(cardImprevistoObject);
-                        
+                        DisplayCard(cardImprevistoObject);
                     };
                     cardsImprevisti.Add(new ImprevistoCard(cardsInfoImprevisti[i].id, cardsInfoImprevisti[i].name, cardsInfoImprevisti[i].description, action0));
                     break;
                 case 1:
                     ToDoAction action1 = delegate (GameObject player) {
                         Debug.Log("script 1");
-                        InstantiateObject(cardImprevistoObject);
-                        
+                        DisplayCard(cardImprevistoObject);
                     };
                     cardsImprevisti.Add(new ImprevistoCard(cardsInfoImprevisti[i].id, cardsInfoImprevisti[i].name, cardsInfoImprevisti[i].description, action1));
                     break;
                 case 2:
                     ToDoAction action2 = delegate (GameObject player) {
                         Debug.Log("script 2");
-                        InstantiateObject(cardImprevistoObject);
+                        DisplayCard(cardImprevistoObject);
                     };
                     cardsImprevisti.Add(new ImprevistoCard(cardsInfoImprevisti[i].id, cardsInfoImprevisti[i].name, cardsInfoImprevisti[i].description, action2));
                     break;
